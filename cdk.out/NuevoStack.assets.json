@@ -1,0 +1,19 @@
+{
+  "version": "17.0.0",
+  "files": {
+    "3b8ee60e017068c37e0ce4b413b9abeb35a66926656400f7443165d3894e7b59": {
+      "source": {
+        "path": "NuevoStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "3b8ee60e017068c37e0ce4b413b9abeb35a66926656400f7443165d3894e7b59.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
